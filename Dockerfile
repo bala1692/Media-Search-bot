@@ -14,7 +14,7 @@ WORKDIR $BOT
 
 
 COPY requirements.txt requirements.txt
-RUN pip install --user --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
